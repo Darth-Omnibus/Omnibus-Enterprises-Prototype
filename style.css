@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 15px; /* Adjusted padding for more items */
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Added rounded corners */
+}
+
+.main-content h1, .main-content h2, .main-content h3 {
+    color: #333;
+}
+
+.section-blurb {
+    background-color: #e7e7e7;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: #0779e4 5px solid;
+    border-radius: 5px; /* Added rounded corners */
+}
+
+.section-blurb h3 {
+    margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline;
+    padding: 0 10px;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    background: #0779e4;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button:hover {
+    background: #055aab;
+}
+
+/* Specific page adjustments */
+#paypal-container-6NX3DAY9B68P4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the PayPal button */
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+.governance-docs ul, .document-toc ul {
+    list-style: square;
+    padding-left: 20px;
+}
+.document-toc li {
+    margin-bottom: 10px;
+}
+
+/* Document Content Styling */
+.document-content {
+    padding: 20px;
+}
+.document-content h1, .document-content h2, .document-content h3, .document-content h4 {
+    color: #333;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.document-content h1 { font-size: 1.8em; text-align: center; margin-bottom: 1em;} /* Page Title */
+.document-content h2 { font-size: 1.6em; text-align: center; margin-bottom: 0.8em;} /* Document Title */
+.document-content h3 { font-size: 1.3em; } /* For Articles */
+.document-content h4 { font-size: 1.1em; } /* For Sections */
+.document-content p { margin-bottom: 1em; }
+.document-content ul, .document-content ol { margin-bottom: 1em; padding-left: 40px; }
+.document-content hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.signature-block {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.signature-line {
+    border: 0;
+    border-top: 1px solid #333;
+    width: 250px;
+    margin-bottom: 5px; /* Reduced margin */
+    margin-left: 0; /* Align left */
+}
+
+.signature-block p {
+    margin-top: 0;
+    margin-bottom: 5px; /* Reduced margin */
+    line-height: 1.4;
+}
